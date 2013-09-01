@@ -1,0 +1,13 @@
+name: Hub
+main: me.dulexzach.spawnleave.spawnleave
+version: 0.1
+commands:
+  hreload:
+    description: Reloads the plugin's configuration.
+permissions:
+    hub.bypass:
+      description: Allows you to bypass the hub.
+      default: false
+    hub.reload:
+      description: Allows you to reload the configuration.
+      default: op
